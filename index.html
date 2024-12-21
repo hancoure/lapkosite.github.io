@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LapkoStore - Техника Apple</title>
+   <style>
+    body {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; padding: 0; background-color: #f5f5f7; color: #333;}
+    header {padding: 20px; background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1);}
+    .logo {display: flex; align-items: center;}
+    .logo img {height: 25px; margin-right: 10px;}
+    h1 {margin: 0; font-size: 24px;}
+    .divider {height: 1px; width: 100%; background: rgba(0, 0, 0, 0.1); margin: 10px 0; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);}
+    nav {display: flex; justify-content: center; margin-top: 10px;}
+    nav a {position: relative; margin: 0 15px; text-decoration: none; color: #0071e3; font-weight: bold; transition: color 0.3s;}
+    nav a::after {content: ''; position: absolute; left: 0; right: 0; bottom: -2px; height: 2px; background: transparent; transition: background 0.3s, width 0.3s; width: 0;}
+    nav a:hover {color: black;}
+    nav a:hover::after {background: black; width: 100%;}
+    .content {display: flex; justify-content: space-between; align-items: flex-start; padding: 20px;}
+    .row {display: flex; justify-content: center; gap: 20px; margin-top: 20px;}
+    .item {border-radius: 15px; background-color: #fff; color: black; margin: 10px; padding: 20px; text-align: center; width: 250px; transition: transform 0.3s ease, box-shadow 0.3s ease;}
+    .item-2 {border-radius: 20px; background-color: #fff; color: black; margin: 10px; padding: 20px; text-align: center; width: 250px; border: 0.2px solid black;}
+    .item-1 {margin-bottom: 20px; border-radius: 15px; background-color: #fff; color: black; margin: 10px; padding: 20px; text-align: center; width: 580px; transition: transform 0.3s ease, box-shadow 0.3s ease;}
+    .item-1 img {width: 504px; height: 400px; object-fit: cover;}
+    .item img {width: 234px; height: 400px; object-fit: cover;}
+    .item:hover, .item-1:hover {transform: scale(1.05); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);}
+    .info {width: 80%; display: flex; flex-direction: column; gap: 20px; margin-left: auto; padding: 20px;}
+    .card {border: 1px solid rgba(0, 0, 0, 0.1); padding: 15px; border-radius: 10px; background-color: #fff; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);}
+    .footer {text-align: center; padding: 20px; background: white; box-shadow: 0 -2px 4px rgba(0,0,0,0.1);}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo.jpg" alt="Логотип Apple">
+        <h1>LapkoStore</h1>
+    </div>
+    <div class="divider"></div>
+    <nav>
+        <a href="#">iPhone</a>
+        <a href="#">iPad</a>
+        <a href="#">Mac</a>
+        <a href="#">Аксессуары</a>
+        <a href="#">Поддержка</a>
+    </nav>
+</header>
+
+<div class="content">
+    <div>
+        <div class="item-1">
+            <img src="https://d2e6ccujb3mkqf.cloudfront.net/99165e75-52a8-4442-8f7b-a64778ee6dff-5_16d5600f-68fd-48cc-9017-18a20bab056d.jpg" alt="Изображение iPhone 14" class="img-1">
+            <p>iPhone 14</p>
+            <p>6.1 дюймов OLED дисплей, чип A15 Bionic, 2 камеры по 12 МП, поддержка 5G.</p>
+        </div>
+        <div class="row">
+            <div class="item">
+                <img src="https://mobileplanet.ua/uploads/editor/image/Blog/2021/219/apple-iphone-13-pro-max.jpg" alt="Изображение iPhone 14 Pro">
+                <p>iPhone 14 Pro</p>
+                <p>6.1 дюймов Super Retina XDR дисплей, чип A16 Bionic, 3 камеры, Dynamic Island.</p>
+            </div>
+            <div class="item">
+                <img src="https://pnghq.com/wp-content/uploads/accurate-iphone-pro-template-png-transparent-overlay-230x350.png" alt="Изображение iPhone 14 Pro Max">
+                <p>iPhone 14 Pro Max</p>
+                <p>6.7 дюймов Super Retina XDR дисплей, чип A16 Bionic, улучшенная автономность, LiDAR.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="item-2">
+                <h3>Подробнее о iPhone 14 Pro</h3>
+                <p>Доступен в различных цветах: серый, серебристый, золотой и глубокий фиолетовый. Отличается высокой производительностью и улучшенной камерой, которая делает фотографии в любых условиях.</p>
+            </div>
+            <div class="item-2">
+                <h3>Подробнее о iPhone 14 Pro Max</h3>
+                <p>Идеален для тех, кто ценит большой экран и длительное время работы от батареи. Камера обеспечивает потрясающие снимки и видео в любых условиях освещения, а поддержка ProRAW и ProRes расширяет возможности съемки.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="card">
+            <h2>Почему выбирают iPhone 14?</h2>
+            <p>Серия iPhone 14 включает в себя последние достижения в области мобильных технологий. Устройства оснащены мощными процессорами, потрясающими дисплеями и передовыми функциями камер, которые делают фотографии и видео качественными, как никогда ранее.</p>
+            <p>Пользователи ценят iPhone 14 за его надежность, долгий срок службы и устойчивость к различным видам повреждений. Смартфоны создаются с применением авиационного алюминия и прочного стекла Ceramic Shield, что делает их стойкими к ударам и падениям. Устройства оптимизированы для работы с новыми версиями iOS, предоставляя плавный пользовательский опыт на годы вперед.</p>
+            <p>Apple стремится к заботе об экологии, поэтому iPhone 14 производится с использованием переработанных материалов. Это подчеркивает не только техническое, но и социальное лидерство компании, делая устройство выбором номер один для сознательных пользователей.</p>
+        </div>
+        <div class="card">
+            <h3>Ключевые особенности:</h3>
+            <ul>
+                <li><strong>Производительность:</strong> iPhone 14 Pro и Pro Max работают на новом чипе A16 Bionic, который обеспечивает молниеносную скорость работы и поддержку ресурсоемких приложений. Этот чип обладает улучшенными возможностями машинного обучения и энергоэффективностью, что делает его лучшим выбором для профессионалов и геймеров.</li>
+                <li><strong>Дисплей:</strong> OLED-технология Super Retina XDR предлагает удивительное качество изображения с насыщенными цветами и высокой контрастностью. Это особенно важно для тех, кто работает с графикой, редактирует фотографии или часто смотрит контент в высоком разрешении. Технология адаптивной частоты обновления ProMotion до 120 Гц обеспечивает плавный и отзывчивый интерфейс.</li>
+                <li><strong>Фотография и видео:</strong> Камеры на 48 МП (для Pro моделей) открывают новые возможности для съемки. Улучшенный ночной режим позволяет получать четкие фотографии даже в условиях низкой освещенности. Видеосъемка поддерживает режим "Action", который стабилизирует кадры при движении, что идеально для активного образа жизни.</li>
+                <li><strong>Автономность:</strong> iPhone 14 Pro Max стал самым долгоживущим смартфоном от Apple с улучшенной батареей. Теперь вы можете проводить видеозвонки, работать и играть дольше, не беспокоясь о зарядке. Опция быстрой зарядки позволяет зарядить устройство на 50% всего за 30 минут.</li>
+            </ul>
+            <p>Дополнительно, iPhone 14 поддерживает Wi-Fi 6 и 5G для более быстрого и стабильного подключения, что делает его идеальным для потокового воспроизведения, игр и удаленной работы. Это устройство, созданное для тех, кто хочет всегда быть на шаг впереди.</p>
+        </div>
+        <div class="card">
+            <h3>Инновации серии:</h3>
+            <p>Серия iPhone 14 предлагает уникальную функцию Dynamic Island (для моделей Pro), которая переосмысляет взаимодействие с уведомлениями и фоновыми задачами. Это нововведение позволяет управлять музыкальным плеером, уведомлениями и вызовами в удобном формате, не выходя из приложений. Dynamic Island адаптируется под каждое действие, делая взаимодействие интуитивным.</p>
+            <p>Кроме того, поддержка спутниковой связи стала настоящей революцией. Теперь вы можете оставаться на связи даже в самых удаленных уголках мира. Эта функция особенно полезна для любителей приключений, альпинистов и путешественников. Также стоит отметить улучшенную защиту от воды и пыли (IP68), что делает iPhone 14 отличным выбором для активного отдыха и сложных условий.</p>
+            <p>Модели iPhone 14 оснащены улучшенными стереодинамиками, которые обеспечивают объемное звучание. Это устройство не только для работы, но и для удовольствия, будь то просмотр фильмов, видеоигр или прослушивание музыки. Встроенный алгоритм пространственного звучания делает аудио более реалистичным, что создает эффект полного погружения.</p>
+        </div>
+        <div class="card">
+            <h3>Отзывы пользователей:</h3>
+            <blockquote>
+                «iPhone 14 Pro Max – это лучшее, что я когда-либо использовал! Камера просто поражает, а производительность позволяет запускать любые игры и приложения без малейших задержек. Теперь я делаю фотографии профессионального качества прямо со смартфона. Dynamic Island – настоящая находка для управления повседневными задачами.» – Иван, Москва.
+            </blockquote>
+            <blockquote>
+                «Я обновился с iPhone 12 на iPhone 14 и сразу почувствовал разницу. Улучшенная автономность и возможности камеры – это то, что нужно в повседневной жизни. Мои фотографии на закате теперь выглядят как открытки! А функция спутниковой связи дает уверенность даже в горах.» – Ольга, Санкт-Петербург.
+            </blockquote>
+            <blockquote>
+                «С iPhone 14 Pro я стал увереннее пользоваться телефоном в путешествиях. Поддержка спутниковой связи – настоящая находка для тех, кто часто бывает вдали от цивилизации. Это именно то, что мне нужно. А производительность A16 Bionic позволяет работать с 3D-графикой и редактировать видео прямо на телефоне.» – Александр, Новосибирск.
+            </blockquote>
+            <blockquote>
+                «iPhone 14 – это идеальное устройство для моего бизнеса. Я часто провожу видеоконференции и использую телефон для работы. С iPhone 14 все стало намного быстрее. Камера идеально подходит для съемки контента в социальных сетях.» – Мария, Екатеринбург.
+            </blockquote>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 LapkoStore. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
